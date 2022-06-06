@@ -2,18 +2,6 @@
 @import 'variables';
 @import 'function';
 
-/* --- Valori di partenza --- */
-@include light-prop;
-
-/* al click del button, switch light/dark */
-
-html[select-theme='light'] {
-    @include theme-colors($light-theme: true);
-}
-
-html[select-theme='dark'] {
-    @include theme-colors($light-theme: false);
-}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
