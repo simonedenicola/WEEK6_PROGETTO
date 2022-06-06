@@ -15,7 +15,7 @@ html[select-theme='dark'] {
     @include theme-colors($light-theme: false);
 }
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "function";
 @import "variables";
